@@ -1,0 +1,141 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c9c9d1, #616461);
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Container centers and limits width */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo img {
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ff6600;
+}
+
+/* Navigation Menu */
+.mainMenu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.mainMenu li a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mainMenu li a:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Order Button */
+.btnOrder button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(255, 69, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.btnOrder button:hover {
+    background-color: #e03e00;
+}
+
+/* Hero Section */
+.heroSection {
+    background: url('burger-bg.jpg') no-repeat center center/cover;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 30px 0;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.heroSection h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Heading Text */
+.headText {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.headText h1 {
+    font-size: 2.5rem;
+    color: #450317;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+/* About Section */
+.aboutburger {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #444;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .navBar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mainMenu {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .heroSection {
+        height: 200px;
+        font-size: 1.8rem;
+    }
+
+    .headText h1 {
+        font-size: 2rem;
+    }
+}
