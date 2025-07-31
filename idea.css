@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dddedf;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  .container {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    color: #3e5060;;
+    border-radius: 50px;
+    margin: 60px auto;
+    max-width: 1000px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    background-image: url('white\ bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: transform 0.3s ease;
+  }
+
+  .container:hover {
+    transform: scale(1.07);
+  }
+
+  .container .content {
+  max-width: 600px;
+  margin: auto;
+  }
+
+  
+  /* Top header layout */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+
+  /* Navigation Styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #caa378;
+  }
+
+ /* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #caa378;
+}
+
+  /* Hero Section */
+  .main {
+    background-color: #caa378;
+    background-image: url('Front\ page.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #3e5060;
+    padding: 80px ;
+    opacity: O.9;
+    text-align: center;
+  }
+  .main h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2.5px;
+
+  }
+  
+  .main p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 0;
+    background-image: url('white\ bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #3e5060;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  .rights {
+    background-color: #3e5060;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
