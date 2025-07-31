@@ -1,0 +1,94 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #b22222;
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section with background image */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url("home\ backgroung\ pic.jpg.jpg") no-repeat center center/cover;
+  padding: 120px 20px;
+  color: white;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+
+.hero button {
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e6c200;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #222;
+  color: white;
+  font-size: 0.9rem;
+}
