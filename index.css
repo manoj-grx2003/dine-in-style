@@ -10,16 +10,17 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: url('https://www.vecteezy.com/photo/50431139-indian-curry-spice-food-in-bowl-rustic-wooden-table-copyspace-for-template-traditional-asian-fried-vegetable-dinner-with-rice-chicken-bread-and-sauce-in-dish') no-repeat center center fixed;
+  background: url('background.jpg');
+
   background-size: cover;
-  color: #333;
+  color: #46dd46;
 }
 
 /* Header */
 header {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(221, 196, 28, 0.842);
   padding: 1.5rem 2rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(227, 218, 218, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -27,7 +28,7 @@ header {
 
 header h1 {
   font-size: 2rem;
-  color: #b22222;
+  color:hwb(180 98% 0%);
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #221b1b;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -123,3 +124,7 @@ footer {
 .hidden {
   display: none;
 }
+
+
+
+
