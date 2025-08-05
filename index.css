@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #000;  
+  background-image: url('momo.jpeg');  
   color: rgb(249, 244, 244);
 }
 
@@ -79,7 +79,7 @@ body {
 .welcome-text {
   color: gold;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
